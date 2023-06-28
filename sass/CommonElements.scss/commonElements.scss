@@ -53,3 +53,25 @@
         color: $copy-color;
     }
 }
+
+// media queries
+
+@media (max-width: 405px) {
+    .logoPc {
+        width: 180px;
+        margin-top: 5px;
+        margin-left: -16px;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .logoPc {
+        width: 150px;
+        margin-top: 15px;
+        margin-left: -14px;
+    }
+}

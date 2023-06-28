@@ -53,6 +53,23 @@
   color: #555252;
 }
 
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 5px;
+    margin-left: -16px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+    margin-left: -14px;
+  }
+}
 .container00.container01 {
   background-image: url(../../assets/img/home/01.jpg);
 }
@@ -78,6 +95,24 @@
 .mediumTitle {
   width: 650px;
   margin-bottom: -25px;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
