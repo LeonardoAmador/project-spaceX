@@ -115,5 +115,104 @@
     font-size: 40px;
   }
 }
+.container00.container05 {
+  background-image: url(../../assets/img/falcon9/01.jpg);
+}
+.container00.container06 {
+  background-image: url(../../assets/img/falcon9/02.jpg);
+}
+.container00.carrossel01 {
+  background-image: url(../../assets/img/falcon9/03.jpg);
+}
+.container00.carrossel02 {
+  background-image: url(../../assets/img/falcon9/04.jpg);
+}
+.container00.carrossel03 {
+  background-image: url(../../assets/img/falcon9/05.jpg);
+}
+.container00.carrossel04 {
+  background-image: url(../../assets/img/falcon9/06.jpg);
+}
+.container00.carrossel05 {
+  background-image: url(../../assets/img/falcon9/07.jpg);
+}
+.container00.container07 {
+  background-image: url(../../assets/img/falcon9/08.jpg);
+}
+
+.titleFalcon9 {
+  font: 514 90px "Rubki", sans-serif;
+}
+
+.titleContent {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .titleNumb {
+  font-size: 90px;
+}
+.numbers .subTitleNumb {
+  font-size: 20px;
+}
+
+.table {
+  --bs-table-color: unset;
+  --bs-table-bg: unset;
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  height: 90vh;
+  display: grid;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.downloadDesc a:hover {
+  color: #b9b9b9;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
