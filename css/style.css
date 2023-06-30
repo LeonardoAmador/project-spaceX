@@ -54,6 +54,11 @@
   color: #555252;
 }
 
+@media (max-width: 375px) {
+  .downloadDesc button {
+    margin: 10px 0px;
+  }
+}
 @media (max-width: 405px) {
   .logoPc {
     width: 180px;
@@ -213,6 +218,42 @@
 .downloadDesc button {
   border: 2px solid white;
   margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .numbers .titleNumb {
+    font-size: 80px;
+  }
+  .numbers .subTitleNumb {
+    font-size: 18px;
+  }
+  .falcon9Desc {
+    width: auto;
+  }
+  #overViewPosition {
+    padding-top: 35%;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .falcon9Desc {
+    font-size: 18px;
+    line-height: auto;
+  }
+  .subTitleFalcon {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
